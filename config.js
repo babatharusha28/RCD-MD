@@ -12,7 +12,7 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "94789958225";
+  : "94716846616";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
@@ -23,7 +23,7 @@ global.userImages =
 ///===========[global iMPORTS]====================//
 
 module.exports = {
-  menu: process.env.MENU || "",
+  menu: process.env.MENU || ".",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
@@ -31,7 +31,7 @@ module.exports = {
   author: process.env.PACK_AUTHER || "RCD-MD",
   packname: process.env.PACK_NAME || "RCD",
   botname: process.env.BOT_NAME || "RCD-MD",
-  ownername: process.env.OWNER_NAME || "RCD",
+  ownername: process.env.OWNER_NAME || "𝐂𝐘𝐁𝐄𝐑 𝐱 𝐓𝐇𝐀𝐑𝐔𝐖𝐀 𝐈𝐃",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -68,7 +68,7 @@ global.waPresence = process.env.WAPRESENCE || "null";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null";
-global.read_status = process.env.AUTO_READ_STATUS || "false";
+global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "null";
 global.read_status_from = process.env.READ_STATUS_FROM || "null";
